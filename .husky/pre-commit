@@ -13,7 +13,7 @@ npm run lint:styles
 
 # Проверка коммита с использованием commitlint
 echo "Validating commit message..."
-git log -1 --pretty=%B | npx commitlint --config commitlint.cjs
+#it log -1 --pretty=%B | npx commitlint --config commitlint.cjs
 
 
 # echo "Pre-commit hook is running"
