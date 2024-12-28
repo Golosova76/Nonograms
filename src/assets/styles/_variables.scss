@@ -1,0 +1,44 @@
+$font-family: "Roboto", sans-serif;
+$font-size: 16px;
+$font-weight: 400;
+$font-line-height: 150%;
+$color-text-dark: black;
+$color-background-body: #bfb0a3;
+$main-background-color: $color-background-body;
+
+@mixin margin-bottom40 {
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+@mixin margin-bottom20 {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@mixin button-toggle {
+  width: 100%;
+  max-width: 200px;
+  padding: 5px;
+  font-family: "Courier New", monospace;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  background: repeating-linear-gradient(
+    110deg,
+    #f9f9f9,
+    #f9f9f9 2px,
+    #e0e0e0 2px,
+    #e0e0e0 5px
+  );
+  border: 4px solid #aaa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+
+  @media (width <= 499px) {
+    width: 100%;
+    max-width: 150px;
+  }
+}

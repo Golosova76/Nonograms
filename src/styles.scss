@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "fonts";
+@import "variables";
+@import "null";
+
+body {
+  font: $font-weight $font-size $font-family;
+  color: $color-text-dark;
+
+  @media (width <= 670px) {
+    font-size: 14px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
