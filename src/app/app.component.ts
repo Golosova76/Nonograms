@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { GameBoardComponent } from './game-board/game-board.component';
-import { GameBoardControlsComponent } from './game-board-controls/game-board-controls.component';
-import { HeaderComponent } from './app-header/app-header.component';
-import { FooterComponent } from './app-footer/app-footer.component';
+import { GameBoardComponent } from './nonogram/pages/game-board/game-board.component';
+import { GameBoardControlsComponent } from './nonogram/pages/game-board-controls/game-board-controls.component';
+import { HeaderComponent } from './core/app-header/app-header.component';
+import { FooterComponent } from './core/app-footer/app-footer.component';
 
 @Component({
   selector: 'app-root',

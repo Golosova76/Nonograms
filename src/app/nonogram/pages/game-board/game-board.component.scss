@@ -1,0 +1,15 @@
+.game-handling {
+  flex: 1 1 45%;
+  padding: 20px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+
+  @media (width <= 1200px) {
+    flex-basis: 100%;
+  }
+
+  @media (width <= 499px) {
+    padding: 0;
+  }
+}

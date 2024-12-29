@@ -1,0 +1,18 @@
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #1f1e1e;
+}
+
+.cell-empty {
+  background-color: gray;
+}
+
+.cell-filled {
+  background-color: black;
+}
+
+.cell-marked {
+  background-color: gray;
+  position: relative;
+}

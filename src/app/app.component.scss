@@ -1,2 +1,33 @@
 @import "common";
 @import "variables";
+
+.page {
+  padding: 20px;
+
+  // .page__container
+
+  &__container {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    outline: #fff double 5px;
+    box-shadow:
+      0 3px 10px 4px rgb(227 216 216 / 40%),
+      0 4px 15px 6px rgb(0 0 0 / 50%),
+      0 5px 20px 10px rgb(120 114 114 / 60%);
+
+    @media (width <= 1200px) {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
+  }
+}
+
+game-board {
+  display: contents; /* "разворачивает" содержимое компонента в Flexbox-контекст родителя */
+}
+
+game-board-controls {
+  display: contents;
+}
