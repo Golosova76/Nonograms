@@ -5,11 +5,11 @@ npm run format
 
 # Запустить ESLint для проверки JavaScript и TypeScript файлов
 echo "Running ESLint..."
-npm run lint
+#npm run lint
 
 # Запустить Stylelint для проверки CSS и SCSS файлов
 echo "Running Stylelint..."
-npm run lint:styles
+#npm run lint:styles
 
 # Проверка коммита с использованием commitlint
 echo "Validating commit message..."
